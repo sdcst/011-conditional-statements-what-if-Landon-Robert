@@ -23,3 +23,15 @@
  Enter password: password
  Access denied
 """
+
+
+username = (input("\n\nEnter username: "))
+
+if username == "Admin":
+    password = (input("\n\nEnter password: "))
+    if password == "1234":
+        print("Access Granted")
+    else:
+        print("Invalid Password")
+else:
+    print("Invalid User")

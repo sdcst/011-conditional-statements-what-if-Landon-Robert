@@ -33,3 +33,26 @@ that is an obtuse triangle
 
 
 """
+import math
+a = float(input("Enter one side:"))
+b = float(input("Enter a second side:"))
+c = float(input("Enter a third side:"))
+
+if a > b > c or a > c > b
+    hypT = a
+if b > a > c or b > c > a
+    hypT = b
+if c > a > b or c > b > a
+    hypT = c
+
+
+if hypT == 
+
+
+
+
+
+
+
+if a == b or b == c or a == c
+    print("This is an acute triangle")
